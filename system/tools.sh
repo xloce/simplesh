@@ -7,6 +7,7 @@ sudo apt upgrade
 
 sudo apt install -y \
 tree \
+stow \
 snap \
 snapd \
 curl \
