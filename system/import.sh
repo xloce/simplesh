@@ -15,9 +15,3 @@
 
 # Import Vim
 . system/vim.sh
-
-# Import PhoneGap
-. system/phonegap.sh
-
-# Import Indicator
-. system/indicator.sh

@@ -9,3 +9,9 @@
 
 # Import message
 . base/message.sh
+
+# Import General Tooling
+. system/tools.sh
+
+# Import PHP
+. system/php.sh
