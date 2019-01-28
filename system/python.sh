@@ -7,6 +7,10 @@ clear;
 sudo apt update
 sudo apt upgrade
 
-sudo apt install python3 python-pip python-dev
+sudo apt install -y \
+python3 \
+python3-pip \
+python-pip \
+python-dev
 
 }
