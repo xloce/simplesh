@@ -15,3 +15,12 @@
 
 # Import Vim
 . system/vim.sh
+
+# Import General Tooling
+. system/tools.sh
+
+# Import PHP
+. system/php.sh
+
+# Import Python
+. system/python.sh
