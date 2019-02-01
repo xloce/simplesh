@@ -15,6 +15,7 @@ php-zip \
 php-mbstring \
 php-phar-io-manifest \
 mysql-server \
+php-mysql \
 apache2 \
 libapache2-mod-php7.2 \
 php7.2 \
