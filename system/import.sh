@@ -16,6 +16,9 @@
 # Import Vim
 . system/vim.sh
 
+# Import NeoVim
+. system/nvim.sh
+
 # Import General Tooling
 . system/tools.sh
 
