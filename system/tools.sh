@@ -16,6 +16,11 @@ xsel \
 openvpn \
 network-manager-openvpn-gnome \
 speedtest-cli \
-fonts-powerline
+tmux \
+vim \
+fonts-powerline;
+
+# tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 }

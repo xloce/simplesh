@@ -13,9 +13,6 @@
 # Import Oh-My-ZSH
 . system/ohmyzsh.sh
 
-# Import Vim
-. system/vim.sh
-
 # Import NeoVim
 . system/nvim.sh
 
