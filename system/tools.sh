@@ -18,11 +18,16 @@ network-manager-openvpn-gnome \
 speedtest-cli \
 tmux \
 vim \
+htop \
+ag \
 fonts-powerline;
 
 # tmux
 if [ ! -d .tmux ]
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
+
+# php
+composer global require friendsofphp/php-cs-fixer
 
 }
