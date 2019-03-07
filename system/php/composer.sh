@@ -16,6 +16,6 @@ fi
 php composer-setup.php --quiet
 RESULT=$?
 rm composer-setup.php
+mkdir -p $HOME/.composer $HOME/.local $HOME/.local/bin $HOME/.local/bin/composer # allow global installation of packages (installed in this directory)
 mv composer.phar ~/.local/bin/composer # custom line to avoid having to use sudo with composer
-mkdir $HOME/.composer # allow global installation of packages (installed in this directory)
 exit $RESULT

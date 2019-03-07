@@ -20,14 +20,19 @@ tmux \
 vim \
 htop \
 ag \
-fonts-powerline;
-
-# tmux
-if [ ! -d .tmux ]
-    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-fi
-
-# php
-composer global require friendsofphp/php-cs-fixer
+gem \
+libodbc1 \ # dependencies for asdf package manager.
+unixodbc \
+automake \
+autoconf \
+libreadline-dev \
+libncurses-dev \
+libssl-dev \
+libyaml-dev \
+libxslt-dev \
+libffi-dev \
+libtool \
+unixodbc-dev \
+fonts-powerline; # fonts
 
 }
