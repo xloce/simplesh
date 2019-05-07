@@ -1,12 +1,14 @@
 #!/bin/bash
 
-# list of shell scrip installed git tools
-tools=( "https://raw.githubusercontent.com/paulirish/git-recent/master/git-recent" \
-"https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy" \
-"https://raw.githubusercontent.com/davidosomething/git-my/master/git-my" \
-"https://raw.githubusercontent.com/davidosomething/git-ink/master/git-ink");
+# list of shell git tools to install
+tools=( https://raw.githubusercontent.com/paulirish/git-recent/master/git-recent \
+https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy \
+https://raw.githubusercontent.com/davidosomething/git-my/master/git-my \
+https://raw.githubusercontent.com/davidosomething/git-ink/master/git-ink \
+https://raw.githubusercontent.com/Fakerr/git-recall/master/git-recall \
+https://raw.githubusercontent.com/alexdavid/git-branch-status/master/git-branch-status);
 
-# list of pip installed tools
+# list of pip tools to install
 pips=( git-plus git-playback );
 
 mkdir -p "$HOME/.local/bin";
